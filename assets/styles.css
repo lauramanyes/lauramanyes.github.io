@@ -27,23 +27,28 @@ ul, ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 h1 {
     font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
     font-size: 3.2rem;
-    line-height: 3.5rem;
+    line-height: 1.15;
 }
 
 h2 {
     font-size: 2rem;
     line-height: 2.5rem;
+    line-height: 1.15;
 }
 
 h3 {
+    font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 2rem;
+    line-height: 1.15;
+    color: #F44030;
 }
 
 p {
@@ -93,7 +98,6 @@ a {
     display: block;
     background-image: url(img/monogramam.jpg);
     background-repeat: no-repeat;
-    height: 100px;
     width: 150px;
 }
 
@@ -111,6 +115,10 @@ a {
 
 .nav-link:hover {
     color: #F44030;
+}
+
+.navigation__list li:last-child .nav-link {
+    padding-right: 0;
 }
 
 .social__item {
@@ -142,6 +150,7 @@ a {
     max-width: 1200px;
     padding: 0 20px;
     position: relative;
+    width: 100%;
 }
 
 .background_proyectos {
@@ -158,33 +167,6 @@ a {
     letter-spacing: 2px;
     font-weight: 400;
     line-height: 4rem;
-}
-
-.reverse {
-    flex-direction: row-reverse;
-}
-
-.column__image {
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: none;
-    margin: 0 auto;
-    max-width: 75%;
-    position: relative;
-}
-
-.column__image::before {
-    content: '';
-    display: block;
-    padding-bottom: 100%;
-}
-
-.reverse .column__image::after {
-    left: 0;
-    margin-left: -5rem;
-    margin-right: 0;
-    right: initial;
 }
 
 .about-image {
@@ -222,27 +204,27 @@ a {
 
 .footer{
     color: #fff;
-    padding: 1rem 10rem;
+    padding: 1rem 0;
     text-align: right;
-    background: #F44030;
-    display: flex;
-    justify-content: space-between;
+    background: #E51300;
 }
-
 
 
 /* min-width: 768px / 16 */
 @media screen and (min-width: 48em) {
+    h3 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
     .row {
         display: flex;
+        justify-content: space-between;
     }
 
     .column {
-        width: 50%;
-    }
-
-    .column__image {
-        display: block;
+        width: 49.5%;
+        width: calc(50% - 10px);
     }
 }
 
