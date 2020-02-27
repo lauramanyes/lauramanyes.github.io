@@ -96,9 +96,8 @@ a {
 
 .logo {
     display: block;
-    background-image: url(img/monogramam.jpg);
     background-repeat: no-repeat;
-    width: 150px;
+    width: 100px;
 }
 
 .navigation,
@@ -170,7 +169,7 @@ a {
 }
 
 .about-image {
-    background-image: url(img/fire.jpg);
+    background-image: url(/);
 }
 
 .titular {
