@@ -7,7 +7,7 @@ html, body {
     height: 100%;
     font-family: 'Muli', 'Helvetica-Neueu', Helvetica, Arial, sans-serif;
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 body, h1, h2, h3, p {
@@ -95,7 +95,7 @@ a {
 }
 
 .logo {
-    display: block;
+    display: inline-block;
     background-repeat: no-repeat;
     width: 100px;
 }
@@ -104,11 +104,12 @@ a {
 .navigation__list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-link {
     display: block;
-    padding: 20px 25px;
+    padding: 0 25px;
     transition: color .25s ease-in-out;
 }
 
@@ -201,13 +202,24 @@ a {
     font-weight: 800;
 }
 
-.footer{
-    color: #fff;
+.footer {
+    color:#FAFAFA;
+    font-size: 0.8889rem;
     padding: 1rem 0;
-    text-align: right;
     background: #E51300;
 }
 
+.footer_link {
+    color:#FAFAFA;
+    font-size: inherit;
+    text-transform: none;
+    font-weight: 400;
+    margin: 0 1rem;
+}
+
+.footer_list li:first-child .footer_link {
+    padding-left: 0;
+}
 
 /* min-width: 768px / 16 */
 @media screen and (min-width: 48em) {
@@ -223,7 +235,13 @@ a {
 
     .column {
         width: 49.5%;
-        width: calc(50% - 10px);
+        width: calc(50% - 20px);
+    }
+
+    .footer__container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
