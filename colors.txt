@@ -1,8 +1,0 @@
-colors:
-
-yellow: #e8c300
-white: #fff
-black: #000
-dark: #191919
-gray: #e5e5e5
-dark gray: #8e8e8e

@@ -3,16 +3,15 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Laura Mañes</title>
+        <title>Laura Mañes ― Contacto</title>
         <meta name="title" content="Laura Mañes ― Diseño gráfico y UX/UI">
         <meta name="description" content="Diseño gráfico y de experiencias digitales. Interés por la composición gráfica y el sentido que hay detrás de cada diseño y la experiencia que provoca.">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Muli:400,800|Source+Serif+Pro:700&display=swap" rel="stylesheet">
         <link rel="icon" href="assets/img/favicon.png">
         <link rel="stylesheet" href="assets/styles.min.css">
     </head>
 
-    <body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
+    <body>
         <header class="header">
             <div class="wrapper__home">
                 <a class="logo" href="index.html">
@@ -27,65 +26,25 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M25.9 23.1L18.8 16l7.1-7.1c.8-.8.8-2 0-2.8-.8-.8-2-.8-2.8 0L16 13.2 8.9 6.1c-.8-.8-2-.8-2.8 0s-.8 2 0 2.8l7.1 7.1-7.1 7.1c-.8.8-.8 2 0 2.8.8.8 2 .8 2.8 0l7.1-7.1 7.1 7.1c.8.8 2 .8 2.8 0 .8-.8.8-2 0-2.8z"/></svg>
                     </button>
                     <ul class="navigation__list">
-                        <li href="#proyectos" class="js-anchor"><a class="nav-link active">Proyectos</a></li>
+                        <li><a class="nav-link" href="index.html">Proyectos</a></li>
                         <li><a class="nav-link" href="conoceme.html">Conóceme</a></li>
-                        <li><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li><a class="nav-link active" href="contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-            
+
         <section id="home" class="billboard">
-            <div class="billboard__wrapper wrapper bg">
+            <div class="billboard__wrapper wrapper contacto__bg">
                 <div class="billboard__content">
-                    <p class="subtitle__section">¡Hola! Me llamo Laura.</p>
-                    <h1>Soy <span style= "color:#F44030">diseñadora gráfica</span style><br>
-                    y de <span style= "color:#F44030">experiencias digitales</span style></h1>
+                    <h1>Me gustaría conocerte<br>
+                    <span style= "color:#F44030">¿Te animas?</span style></h1>
+                    <div class="contacto__wrapper">
+                        <a class="contacto" href="mailto:lauramanyesmarin@gmail.com">lauramanyesmarin@gmail.com</a>
+                    </div>
                 </div>
             </div>
         </section>
-
-        <main>
-            <section id="proyectos" class="section">
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="column">
-                            <div class="proyecto aos-init" data-aos="fade-up" data-aos-easing="ease-in-back">
-                                <a href="proyectos/chc.html">
-                                <img src="assets/img/ipad_chc_home.jpg" alt="ipad_chc_home" style="width: 100%">
-                                </a>
-                                <h3>Carcinoma Hepatocelular</h3>
-                                <p class="description">Diseño de interfaz / E-learning</p>
-                            </div>
-                            <div class="proyecto aos-init" data-aos="fade-up" data-aos-easing="ease-in-back">
-                                <a href="proyectos/origens.html">
-                                <img src="assets/img/vinopackmancha_home.jpg" alt="vinopackmancha_home">
-                                </a>
-                                <h3>Orígens</h3>
-                                <p class="description">Diseño gráfico / Re-branding</p>
-                            </div>
-                        </div> 
-
-                        <div class="column">
-                            <div class="proyecto aos-init" data-aos="fade-up">
-                                <a href="proyectos/space_travel.html">
-                                <img src="assets/img/ipad_iphone_spacetravel_home.jpg" alt="ipad_iphone_spacetravel_home">
-                                </a>
-                                <h3>Space Travel</h3>
-                                <p class="description">Diseño UX/UI</p>
-                            </div>
-                            <div class="proyecto aos-init" data-aos="fade-up">
-                                <a href="proyectos/tengo_la_regla.html">
-                                <img src="assets/img/cubiertalibro_home.jpg" alt="cubiertalibro_home">
-                                </a>
-                                <h3>Tengo la regla ¿y ahora qué?</h3>
-                                <p class="description">Diseño Editorial</p>
-                            </div>
-                        </div>        
-                    </div>
-                </div>
-            </section>
-        </main>
 
         <footer class="footer">
             <div class="footer__container wrapper">
@@ -112,11 +71,6 @@
         crossorigin="anonymous"></script>
 
         <script src="assets/app.js"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init ({
-                duration: 1000
-            });
-        </script>
+        
     </body>
 </html>
