@@ -126,8 +126,23 @@ a {
     height: 100vh;
 }
 
+.rupta__bg {
+    background-image: url(img/rupta-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
 .chc__bg {
     background-image: url(img/chc_desktop_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.mediamarkt__bg {
+    background-image: url(img/portada-mediamarkt.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -396,7 +411,7 @@ a {
 }
 
 .text-contacto span:after {
-    content: '🚀︎';
+    content: '🚀';
     position: absolute;
     opacity: 0;
     top: 0;
@@ -405,7 +420,7 @@ a {
 }
 
 .text-contacto:hover span {
-    padding-right: 30px;
+    padding-right: 35px;
 }
   
 .text-contacto:hover span:after {
@@ -430,13 +445,12 @@ a {
 }
   
 .text-project-before span:after {
-    content: '⮜';
+    content: '🔍';
     position: absolute;
     opacity: 0;
     top: 0;
     left: -20px;
     transition: 0.5s;
-    ⮜◀︎🞀
 }
   
 .text-project-before:hover span {
@@ -471,13 +485,12 @@ a {
 }
   
 .text-project-after span:after {
-    content: '⮞';
+    content: '🔎';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
-    ➜⮞▶︎
 }
   
 .text-project-after:hover span {
@@ -541,6 +554,7 @@ a {
     text-align: center;
     font-weight: 800;
     font-size: 16px;
+    margin: 5px 0;
 }
 
 .scroll-down {
@@ -638,10 +652,26 @@ a {
         height: 100vh;
     }
 
+    .rupta__bg {
+        background-image: url(img/rupta-mobile.png);
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-position: center;
+        height: 100vh;
+    }
+
     .chc__bg {
         background-image: url(img/chc_mobile_bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
+        height: 100vh;
+    }
+
+    .mediamarkt__bg {
+        background-image: url(img/reparación.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 350px;
         height: 100vh;
     }
 
@@ -742,6 +772,7 @@ a {
     .container__column__project {
         margin-bottom: 2rem;
         line-height: 1.5rem;
+        overflow: hidden;
     }
 
     .footer__button {
@@ -817,6 +848,7 @@ a {
 
     .container__column__project {
         width: 85%;
+        overflow: hidden;
     }
 
     .content-text {
@@ -929,6 +961,7 @@ a {
         width: calc(50% - 35px);
         line-height: 1.7rem;
         margin-bottom: 2rem;
+        overflow: hidden;
     }
 
     .container__column__img {
