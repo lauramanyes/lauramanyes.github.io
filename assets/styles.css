@@ -71,6 +71,22 @@ a {
     font-weight: 800;
 }
 
+.title-project-white {
+    color: #fff;
+}
+
+.white {
+    color: #fff;
+    font-size: 16px;
+}
+
+.white-title {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
 .header {
     padding: 1.5rem 0;
     position: fixed;
@@ -244,6 +260,14 @@ a {
     width: 100%;
 }
 
+.wrapper__project__intro {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px 20px;
+    position: relative;
+    width: 100%;
+}
+
 .reverse {
     flex-direction: row-reverse;
 }
@@ -328,7 +352,37 @@ a {
 }
 
 .section__project {
-    padding: 2rem 0 3rem 0;
+    padding: 6rem 0 3rem 0;
+}
+
+.section__project__chc {
+    padding-top: 2rem;
+    background-color: #283770;
+}
+
+.section__project__mediamarkt {
+    padding-top: 2rem;
+    background-color: #d43030;
+}
+
+.section__project__tengo {
+    padding-top: 2rem;
+    background-color: #F099AA;
+}
+
+.section__project__space {
+    padding-top: 2rem;
+    background-color: #14c2b3;
+}
+
+.section__project__origens {
+    padding-top: 2rem;
+    background-color: #CF023B;
+}
+
+.section__project__rupta {
+    padding-top: 2rem;
+    background-color: #8f7b6e;
 }
 
 .subtitle__section {
@@ -356,8 +410,9 @@ a {
 }
 
 .description__project {
-    margin: 20px 0 50px 0;
+    margin-top: 20px;
     font-size: 1.2rem;
+    color: #fff;
 }
 
 .project {
@@ -542,6 +597,21 @@ a {
 .curriculum:hover:before {
     visibility: visible;
     height: 10px;
+}
+
+.white-link {
+    font-weight: 400;
+    position: relative;
+    color: #fff;
+    padding-left: 1px;
+    padding-right: 1px;
+    box-shadow: inset 0 -1px 0  #fff;
+    font-size: 16px;
+}
+
+.white-link:hover{
+    color: #fff;
+    font-size: 1rem;
 }
 
 .footer {
@@ -775,6 +845,12 @@ a {
         overflow: hidden;
     }
 
+    .container__column__project__intro {
+        margin-bottom: 2rem;
+        line-height: 1.3rem;
+        overflow: hidden;
+    }
+
     .footer__button {
         text-align: center;
         align-items: center;
@@ -847,6 +923,11 @@ a {
     }
 
     .container__column__project {
+        width: 85%;
+        overflow: hidden;
+    }
+
+    .container__column__project__intro {
         width: 85%;
         overflow: hidden;
     }
@@ -960,6 +1041,15 @@ a {
         overflow: auto;
         width: calc(50% - 35px);
         line-height: 1.7rem;
+        margin-bottom: 2rem;
+        overflow: hidden;
+    }
+
+    .container__column__project__intro {
+        box-sizing: border-box;
+        overflow: auto;
+        width: calc(50% - 35px);
+        line-height: 1.3rem;
         margin-bottom: 2rem;
         overflow: hidden;
     }
