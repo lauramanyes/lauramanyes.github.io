@@ -113,13 +113,6 @@ a {
     height: 100%;
 }
 
-.contacto__bg__banner {
-    background-image: url(img/contacto.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 150px;
-}
-
 .contacto__bg {
     background-image: url(img/contacto.png);
     background-repeat: no-repeat;
@@ -221,8 +214,7 @@ a {
 }
 
 .social__item svg {
-    fill: #fff;
-    height: 20px;
+    height: 45px;
 }
 
 .wrapper__header {
@@ -872,6 +864,48 @@ a {
         justify-content: space-between;
     }
 
+    .footer__button {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .text-project-before {
+        margin: 40px 40px 40px 0;
+        font-size: 0.8rem;
+        font-weight: 800;
+        display: inline-block;
+        padding: 0.75rem 2.5rem;
+        border-radius: 50px;
+        border: 2px solid;
+        border-color: #f44030;
+        color: #f44030;
+        text-decoration: none;
+        text-align: center;
+        background-color: #Fff;
+    }
+
+    .text-project-after {
+        margin: 40px 0 40px 40px;
+        font-size: 0.8rem;
+        font-weight: 800;
+        display: inline-block;
+        padding: 0.75rem 2.5rem;
+        border-radius: 50px;
+        border: 2px solid;
+        border-color: #f44030;
+        color: #f44030;
+        text-decoration: none;
+        text-align: center;
+        background-color: #Fff;
+    }
+
+    .social li:last-child .social__item {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
 }
 
 /* min-width: 640px / 16 */
@@ -946,13 +980,6 @@ a {
         background-repeat: no-repeat;
         background-position: right bottom;
         background-size: 400px;
-    }
-
-    .contacto__bg__banner {
-        background-image: url(img/contacto.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 25%;
     }
 
     .contacto__bg {
@@ -1071,17 +1098,5 @@ a {
         padding: 0 20px;
         position: relative;
         width: 100%;
-    }
-
-    .social li:last-child .social__item {
-        padding-right: 0;
-        margin-right: 0;
-    }
-
-    .footer__button {
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 }
