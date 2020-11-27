@@ -652,6 +652,10 @@ a {
         margin-top: 30px;  
     }
 
+    .subtitle__project {
+        font-size: 1.1rem;
+    }
+
     body {
         overflow-x: hidden;
     }
@@ -956,7 +960,7 @@ a {
     }
 
     .container__column__project {
-        width: 85%;
+        width: 95%;
         overflow: hidden;
     }
 
