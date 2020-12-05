@@ -199,7 +199,7 @@ a {
 }
 
 .rupta__bg {
-    background-image: url(img/rupta-desktop.png);
+    background-image: url(img/pantallas-rupta.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -988,7 +988,7 @@ a {
 
     .column {
         width: 49.5%;
-        width: calc(50% - 20px);
+        width: calc(50% - 25px);
         margin: 0 0 2rem;
     }
 
@@ -1154,7 +1154,7 @@ a {
     .container__column__img {
         box-sizing: border-box;
         overflow: auto;
-        width: calc(50% - 20px);
+        width: calc(50% - 18px);
         margin-bottom: 2rem;
     }
 
