@@ -132,9 +132,6 @@ a {
     align-items: center;
 }
 
-.swiper-pagination {
-    cursor: pointer;
-}
 
 .swiper-pagination-bullet-active {
     background-color: #f44030 !important;
