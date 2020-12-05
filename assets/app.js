@@ -18,3 +18,11 @@ $('.js-anchor').on('click', function(event) {
         1500
     );
 });
+
+$(document).on('mousedown', '.grabbable', function() {
+  $(this).addClass('active');
+});
+
+$(document).on('mouseup', '.grabbable', function() {
+  $(this).removeClass('active');
+});

@@ -7,6 +7,7 @@
         <meta name="title" content="Laura Mañes ― Diseño gráfico y UX/UI">
         <meta name="description" content="Diseño gráfico y de Experiencias digitales.">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
         <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&family=Source+Serif+Pro:wght@400;900&display=swap" rel="stylesheet">
         <link rel="icon" href="../assets/img/laura-icon.png">
         <link rel="stylesheet" href="../assets/styles.css">
@@ -81,9 +82,25 @@
                 </div>
             </div>
 
-            <div class="container wrapper__project">
-                <img data-aos="fade-up" src="../assets/img/pantallas-rupta.png">
+
+            <div class="swiper-js-container container wrapper__project" style="margin-bottom: 50px;">
+                <div class="swiper-container" data-swiper-items="1" data-swiper-sm-items="2" data-swiper-xl-items="3">
+                    <div id="grabbable" class="swiper-wrapper grabbable">
+                        <div class="swiper-slide">
+                            <img src="../assets/img/mockup-rupta.png" alt="mockup-rupta">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/img/mockup-rupta-02.png" alt="mockup-rupta">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/img/mockup-rupta-03.png" alt="mockup-rupta"> 
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
+
 
             <div class="container wrapper__project">
                 <div data-aos="fade-right" class="container__column__project">
@@ -166,11 +183,27 @@
 
         <script src="../assets/app.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
         <script>
             AOS.init ({
                 duration: 1000,
                 once: true,
             });
+            
+            var mySwiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: false,
+            slidesPerView: 1,
+            centeredSlides: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: false,
+            },
+            });
+
         </script>
 
     </body>
