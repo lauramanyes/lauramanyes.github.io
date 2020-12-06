@@ -11,6 +11,28 @@ body {
     font-size: 18px;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #FFF;
+    border-radius: 10px;
+}
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FBB0A9;
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F55649; 
+}
+
 body,
 h1,
 h2,
@@ -133,7 +155,8 @@ a {
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #f44030 !important;
+    background-color: #FBB0A9 !important;
+    border-color: #FBB0A9 !important;
     width: 9px;
     height: 9px;
 }
@@ -499,18 +522,18 @@ a {
     text-decoration: none;
     font-weight: 800;
     text-align: center;
-    background-color: #f44030;
+    background-color: #F55649;
     border: 2px solid;
-    border-color: #f44030;
+    border-color: #F55649;
     transition: 0.2s;
 }
 
 .text-contacto:hover {
-    color: #f44030;
+    color: #F55649;
     background-color: #fff;
     border-radius: 50px;
     border: 2px solid;
-    border-color: #f44030;
+    border-color: #F55649;
 }
 
 .text-contacto span {
@@ -580,8 +603,8 @@ a {
     padding: 0.75rem 2.5rem;
     border-radius: 50px;
     border: 2px solid;
-    border-color: #f44030;
-    color: #f44030;
+    border-color: #F44030;
+    color: #F44030;
     text-decoration: none;
     text-align: center;
     background-color: #Fff;
@@ -620,8 +643,8 @@ a {
     padding: 0.75rem 2.5rem;
     border-radius: 50px;
     border: 2px solid;
-    border-color: #f44030;
-    color: #f44030;
+    border-color:#F44030;
+    color: #F44030;
     text-decoration: none;
     text-align: center;
     background-color: #Fff;
@@ -949,8 +972,8 @@ a {
         padding: 0.75rem 2.5rem;
         border-radius: 50px;
         border: 2px solid;
-        border-color: #f44030;
-        color: #f44030;
+        border-color: #F44030;
+        color: #F44030;
         text-decoration: none;
         text-align: center;
         background-color: #Fff;
@@ -964,8 +987,8 @@ a {
         padding: 0.75rem 2.5rem;
         border-radius: 50px;
         border: 2px solid;
-        border-color: #f44030;
-        color: #f44030;
+        border-color: #F44030;
+        color: #F44030;
         text-decoration: none;
         text-align: center;
         background-color: #Fff;
