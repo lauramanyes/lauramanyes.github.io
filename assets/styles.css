@@ -155,8 +155,8 @@ a {
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #FBB0A9 !important;
-    border-color: #FBB0A9 !important;
+    background-color: #F55649 !important;
+    border-color: #F55649 !important;
     width: 9px;
     height: 9px;
 }
@@ -164,7 +164,7 @@ a {
 .swiper-pagination-bullet {
     border: 2px solid;
     border-color: #f44030;
-    background-color: #fff;
+    background-color: #f44030;
 }
 
 /*
