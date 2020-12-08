@@ -222,9 +222,10 @@ a {
 }
 
 .rupta__bg {
-    background-image: url(img/pantallas-rupta.png);
+    background-image: url(img/pantallas-rupta.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     height: 100vh;
 }
 
@@ -795,10 +796,10 @@ a {
     }
 
     .spacetravel__bg {
-        background-image: url(img/spacetravel_mobile_bg.jpg);
+        background-image: url(img/mobile-spacetravel.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         height: 100vh;
     }
 
@@ -810,15 +811,15 @@ a {
     }
 
     .rupta__bg {
-        background-image: url(img/pantallas-rupta.png);
+        background-image: url(img/mobile-rupta.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         height: 100vh;
     }
 
     .chc__bg {
-        background-image: url(img/chc_mobile_bg.jpg);
+        background-image: url(img/mobile-chc.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -829,7 +830,7 @@ a {
         background-image: url(img/mediamarkt-mobile.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         height: 100vh;
     }
 
