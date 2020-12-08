@@ -13,7 +13,7 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
 }
   
   /* Track */
@@ -207,7 +207,7 @@ a {
 }
 
 .spacetravel__bg{
-    background-image: url(img/spacetravel_desktop_bg.jpg);
+    background-image: url(img/portada-space-travel-desktop.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -229,10 +229,10 @@ a {
 }
 
 .chc__bg {
-    background-image: url(img/chc_desktop_bg.jpg);
+    background-image: url(img/chc_bg.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-position: top;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -240,12 +240,12 @@ a {
     background-image: url(img/portada-mediamarkt.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: auto;
     height: 100vh;
 }
 
 .tengolaregla__bg {
-    background-image: url(img/cubiertalibro_desktop_bg.jpg);
+    background-image: url(img/tengolaregla.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -798,6 +798,7 @@ a {
         background-image: url(img/spacetravel_mobile_bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
+        background-size: inherit;
         height: 100vh;
     }
 
@@ -809,10 +810,10 @@ a {
     }
 
     .rupta__bg {
-        background-image: url(img/rupta-mobile.png);
+        background-image: url(img/rupta_mobile_bg.jpg);
         background-repeat: no-repeat;
-        background-size: 500px;
-        background-position: center;
+        background-size: 1200px;
+        background-position: bottom;
         height: 100vh;
     }
 
@@ -820,13 +821,15 @@ a {
         background-image: url(img/chc_mobile_bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
+        background-size: contain;
         height: 100vh;
     }
 
     .mediamarkt__bg {
-        background-image: url(img/mediamarkt-mobile.png);
+        background-image: url(img/mediamarkt-mobile.jpg);
         background-repeat: no-repeat;
         background-position: center;
+        background-size: inherit;
         height: 100vh;
     }
 
@@ -834,6 +837,7 @@ a {
         background-image: url(img/cubiertalibro_mobile_bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
         height: 100vh;
     }
 
