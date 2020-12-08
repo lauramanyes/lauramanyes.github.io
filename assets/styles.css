@@ -798,7 +798,7 @@ a {
         background-image: url(img/spacetravel_mobile_bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: inherit;
+        background-size: cover;
         height: 100vh;
     }
 
@@ -812,7 +812,7 @@ a {
     .rupta__bg {
         background-image: url(img/rupta_mobile_bg.jpg);
         background-repeat: no-repeat;
-        background-size: 1200px;
+        background-size: cover;
         background-position: bottom;
         height: 100vh;
     }
@@ -829,7 +829,7 @@ a {
         background-image: url(img/mediamarkt-mobile.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: inherit;
+        background-size: cover;
         height: 100vh;
     }
 
