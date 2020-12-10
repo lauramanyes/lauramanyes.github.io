@@ -11,6 +11,11 @@ body {
     font-size: 18px;
 }
 
+video {
+    width:100%!important;
+    height:auto!important
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
