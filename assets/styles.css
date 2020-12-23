@@ -821,6 +821,14 @@ a {
         height: 100vh;
     }
 
+    .flip__bg {
+        background-image: url(img/flip-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
     .origens__bg {
         background-image: url(img/origens_mobile_bg.jpg);
         background-repeat: no-repeat;
