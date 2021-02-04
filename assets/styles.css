@@ -258,6 +258,14 @@ a {
     height: 100vh;
 }
 
+.onapills__bg {
+    background-image: url(img/onapills-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
 .tengolaregla__bg {
     background-image: url(img/tengolaregla.jpg);
     background-repeat: no-repeat;
@@ -460,6 +468,11 @@ a {
 .section__project__flip {
     padding-top: 2rem;
     background-color: #C08DD9;
+}
+
+.section__project__onapills {
+    padding-top: 2rem;
+    background-color: #6C60EB;
 }
 
 .section__project__tengo {
@@ -823,6 +836,14 @@ a {
 
     .flip__bg {
         background-image: url(img/flip-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .onapills__bg {
+        background-image: url(img/onapills-desktop.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
