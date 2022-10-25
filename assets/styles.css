@@ -122,16 +122,6 @@ a {
     background:rgba(255, 255, 255);
 }
 
-.slider {
-	background: white;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-	height: 100px;
-	margin: auto;
-	overflow:hidden;
-	position: relative;
-	width: 960px;
-}
-
 /*
 .hover01 img {
     -webkit-transform: scale(1);
@@ -752,10 +742,6 @@ a {
         position: absolute;
         top: 25px;
         right: 17px;
-    }
-
-    .swiper-pagination {
-        position: relative;
     }
 
     .billboard__wrapper {
